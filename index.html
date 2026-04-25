@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Premium creative studio crafting exceptional digital experiences through design, development, and strategy.">
+    <title>ATELIER — Full-Stack Developer & UI + Graphic Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/font/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-line"></div>
+            <span class="preloader-text">ATELIER</span>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">ATELIER<span class="dot">.</span></a>
+            <div class="nav-links" id="nav-links">
+                <a href="#about" class="nav-link" data-hover="About">About</a>
+                <a href="#projects" class="nav-link" data-hover="Work">Work</a>
+                <a href="#services" class="nav-link" data-hover="Services">Services</a>
+                <a href="#skills" class="nav-link" data-hover="Skills">Skills</a>
+                <a href="#contact" class="nav-link" data-hover="Contact">Contact</a>
+            </div>
+            <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Toggle menu">
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-inner">
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#projects" class="mobile-link">Work</a>
+            <a href="#services" class="mobile-link">Services</a>
+            <a href="#skills" class="mobile-link">Skills</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-content">
+            <div class="hero-eyebrow">
+                <span class="eyebrow-line"></span>
+                <span class="eyebrow-text">Full-Stack Developer & UI + Graphic Designer</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line"><span class="title-line-inner">Crafting</span></span>
+                <span class="title-line"><span class="title-line-inner">Digital <em>Experiences</em></span></span>
+                <span class="title-line"><span class="title-line-inner">That Inspire</span></span>
+            </h1>
+            <p class="hero-subtitle">I design and build premium digital products that elevate brands, captivate
+                audiences, and drive meaningful results.</p>
+            <div class="hero-cta-group">
+                <a href="#projects" class="btn btn-primary" id="hero-cta">
+                    <span class="btn-text">Explore My Works</span>
+                    <span class="btn-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M7 17L17 7M17 7H7M17 7V17" />
+                        </svg>
+                    </span>
+                </a>
+                <a href="#contact" class="btn btn-ghost">
+                    <span class="btn-text">Get in Touch</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span class="scroll-text">Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+        <div class="hero-counter">
+            <span class="counter-label">Selected Projects</span>
+            <span class="counter-number">06</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-number">01</span>
+                <span class="label-text">About Us</span>
+                <span class="label-line"></span>
+            </div>
+            <div class="about-grid">
+                <div class="about-left">
+                    <h2 class="about-title reveal-text">
+                        We are a boutique studio obsessed with <em>exceptional craft</em> and purposeful design.
+                    </h2>
+                </div>
+                <div class="about-right">
+                    <p class="about-body reveal-up">With over a decade of experience, we partner with visionary brands
+                        to create digital experiences that leave lasting impressions. Our approach blends strategic
+                        thinking with meticulous execution.</p>
+                    <p class="about-body reveal-up">Every pixel, every interaction, every line of code is intentional —
+                        because the details are what separate good from extraordinary.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span>Design</span><span class="marquee-dot">✦</span>
+                <span>Development</span><span class="marquee-dot">✦</span>
+                <span>Strategy</span><span class="marquee-dot">✦</span>
+                <span>Branding</span><span class="marquee-dot">✦</span>
+                <span>Motion</span><span class="marquee-dot">✦</span>
+                <span>Design</span><span class="marquee-dot">✦</span>
+                <span>Development</span><span class="marquee-dot">✦</span>
+                <span>Strategy</span><span class="marquee-dot">✦</span>
+                <span>Branding</span><span class="marquee-dot">✦</span>
+                <span>Motion</span><span class="marquee-dot">✦</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-number">02</span>
+                <span class="label-text">Selected Work</span>
+                <span class="label-line"></span>
+            </div>
+            <h2 class="section-heading reveal-text">Projects that define our <em>standard.</em></h2>
+
+            <div class="projects-grid" id="projects-grid">
+                <!-- Dynamically populated from projects-data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-number">03</span>
+                <span class="label-text">What We Do</span>
+                <span class="label-line"></span>
+            </div>
+            <h2 class="section-heading reveal-text">Services tailored for <em>ambitious</em> brands.</h2>
+
+            <div class="services-list">
+                <div class="service-item reveal-up">
+                    <div class="service-number">01</div>
+                    <div class="service-content">
+                        <h3 class="service-title">Brand Strategy & Identity</h3>
+                        <p class="service-desc">We craft brand identities that resonate, from naming and visual systems
+                            to comprehensive brand guidelines that ensure consistency across every touchpoint.</p>
+                    </div>
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" />
+                            <path d="M2 17L12 22L22 17" />
+                            <path d="M2 12L12 17L22 12" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="service-item reveal-up">
+                    <div class="service-number">02</div>
+                    <div class="service-content">
+                        <h3 class="service-title">UI/UX Design</h3>
+                        <p class="service-desc">Human-centered design that delights. We create intuitive interfaces and
+                            seamless user journeys that transform complex challenges into elegant experiences.</p>
+                    </div>
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2" />
+                            <path d="M3 9H21" />
+                            <path d="M9 21V9" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="service-item reveal-up">
+                    <div class="service-number">03</div>
+                    <div class="service-content">
+                        <h3 class="service-title">Web Development</h3>
+                        <p class="service-desc">Performance-driven development with cutting-edge technologies. From
+                            marketing sites to complex web applications, we build for scale and excellence.</p>
+                    </div>
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <polyline points="16 18 22 12 16 6" />
+                            <polyline points="8 6 2 12 8 18" />
+                            <line x1="14" y1="4" x2="10" y2="20" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="service-item reveal-up">
+                    <div class="service-number">04</div>
+                    <div class="service-content">
+                        <h3 class="service-title">Motion & Interaction Design</h3>
+                        <p class="service-desc">Bring your digital presence to life. We design purposeful animations and
+                            micro-interactions that guide users and elevate the overall experience.</p>
+                    </div>
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <polygon points="5 3 19 12 5 21 5 3" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="stack" id="skills">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-number">04</span>
+                <span class="label-text">Tech Stack</span>
+                <span class="label-line"></span>
+            </div>
+            <h2 class="section-heading reveal-text">Tools & technologies I work with.</h2>
+            <div class="stack-grid">
+                <div class="stack-card reveal-up">
+                    <div class="stack-card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <polyline points="16 18 22 12 16 6" />
+                            <polyline points="8 6 2 12 8 18" />
+                            <line x1="14" y1="4" x2="10" y2="20" />
+                        </svg>
+                    </div>
+                    <h3 class="stack-card-title">Web Development</h3>
+                    <p class="stack-card-desc">Building fast, responsive, and scalable web applications from concept to
+                        deployment.</p>
+                    <div class="stack-tags">
+                        <span class="stack-tag">HTML / CSS</span>
+                        <span class="stack-tag">JavaScript</span>
+                        <span class="stack-tag">React</span>
+                        <span class="stack-tag">Next.js</span>
+                        <span class="stack-tag">GSAP</span>
+                        <span class="stack-tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="stack-card reveal-up">
+                    <div class="stack-card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2" />
+                            <path d="M3 9H21" />
+                            <path d="M9 21V9" />
+                        </svg>
+                    </div>
+                    <h3 class="stack-card-title">UI / UX Design</h3>
+                    <p class="stack-card-desc">Crafting intuitive interfaces and seamless user experiences that engage
+                        and convert.</p>
+                    <div class="stack-tags">
+                        <span class="stack-tag">Figma</span>
+                        <span class="stack-tag">Prototyping</span>
+                        <span class="stack-tag">Wireframing</span>
+                        <span class="stack-tag">Design Systems</span>
+                        <span class="stack-tag">Motion Design</span>
+                    </div>
+                </div>
+                <div class="stack-card reveal-up">
+                    <div class="stack-card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" />
+                            <line x1="4" y1="22" x2="4" y2="15" />
+                        </svg>
+                    </div>
+                    <h3 class="stack-card-title">Backend & Tools</h3>
+                    <p class="stack-card-desc">Server-side logic, databases, and DevOps that powers everything behind
+                        the scenes.</p>
+                    <div class="stack-tags">
+                        <span class="stack-tag">PHP / Laravel</span>
+                        <span class="stack-tag">MySQL</span>
+                        <span class="stack-tag">Git / GitHub</span>
+                        <span class="stack-tag">REST APIs</span>
+                        <span class="stack-tag">Deployment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-number">05</span>
+                <span class="label-text">Get In Touch</span>
+                <span class="label-line"></span>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-left">
+                    <h2 class="contact-title reveal-text">Let's create something <em>extraordinary</em> together.</h2>
+                    <p class="contact-body reveal-up">Have a project in mind? We'd love to hear about it. Drop us a line
+                        and let's start a conversation.</p>
+                    <div class="contact-details reveal-up">
+                        <a href="mailto:Fahed.azaiez.1@gmail.com" class="contact-link">Fahed.azaiez.@gmail.com</a>
+                        <a href="tel:+1234567890" class="contact-link">+216 52 558 863 </a>
+                    </div>
+                    <div class="contact-socials reveal-up">
+                        <a href="#" class="social-link">Dribbble</a>
+                        <a href="#" class="social-link">Behance</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form class="contact-form" id="contact-form">
+                        <input type="hidden" name="access_key" value="ebb5ffbe-b026-4230-b8ee-d3fab3a928d9">
+                        <input type="hidden" name="subject" value="New Contact Form Submission — ATELIER">
+                        <input type="hidden" name="from_name" value="ATELIER Portfolio">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display:none;">
+                        <div class="form-group reveal-up">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group reveal-up">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input"
+                                placeholder="john@example.com" required>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group reveal-up">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-input"
+                                placeholder="Project inquiry">
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group reveal-up">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-input form-textarea"
+                                placeholder="Tell us about your project..." rows="4" required></textarea>
+                            <span class="form-line"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit reveal-up" id="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M22 2L11 13" />
+                                    <path d="M22 2L15 22L11 13L2 9L22 2Z" />
+                                </svg>
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <span class="footer-logo">ATELIER<span class="dot">.</span></span>
+                    <p class="footer-copy">&copy; 2026 Atelier Studio. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#hero" class="back-to-top">
+                        <span>Back to top</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M12 19V5M5 12L12 5L19 12" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal" id="project-modal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close" aria-label="Close modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6L18 18" />
+                </svg>
+            </button>
+            <div class="modal-body">
+                <div class="modal-image" id="modal-image"></div>
+                <div class="modal-info">
+                    <span class="modal-category" id="modal-category"></span>
+                    <h2 class="modal-title" id="modal-title"></h2>
+                    <p class="modal-desc" id="modal-desc"></p>
+                    <div class="modal-details">
+                        <div class="modal-detail">
+                            <span class="detail-label">Client</span>
+                            <span class="detail-value" id="modal-client"></span>
+                        </div>
+                        <div class="modal-detail">
+                            <span class="detail-label">Year</span>
+                            <span class="detail-value" id="modal-year"></span>
+                        </div>
+                        <div class="modal-detail">
+                            <span class="detail-label">Services</span>
+                            <span class="detail-value" id="modal-services"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="projects-data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
