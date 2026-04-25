@@ -9,7 +9,7 @@ const PROJECTS = [
     services: "Web Development, UI/UX Design, Backend Development, Learning Platform",
     desc: "A modern e-learning platform offering structured courses, subscription plans, and interactive learning experiences designed for creative and technical skills.",
     gradient: "linear-gradient(135deg, #2c2c38 0%, #18181e 100%)",
-    image: "id1.jpg"
+    /* image: "id1.jpg" */
   },
   {
     id: "2",
