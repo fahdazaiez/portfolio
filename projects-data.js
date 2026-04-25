@@ -16,7 +16,7 @@ const PROJECTS = [
     title: "Tote&Glow",
     category: "E-Commerce Website",
     year: "2026",
-    client: "Tote & Glow Studio",
+    client: "Tote & Glow",
     services: "UI/UX Design, Web Development, E-Commerce Integration",
     desc: "A modern e-commerce platform designed for a minimalist tote bag brand, combining soft luxury aesthetics with a seamless shopping experience. The website features a clean interface, responsive design, and a fully functional cart and checkout system, creating an elegant and user-friendly digital storefront.",
     gradient: "linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%)",
