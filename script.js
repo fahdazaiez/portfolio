@@ -40,6 +40,21 @@
   const counterEl = document.querySelector(".counter-number");
   if (counterEl) counterEl.textContent = String(projects.length).padStart(2, "0");
 
+  /* ---------- Render graphic design works from DESIGN_WORKS ---------- */
+  const designGrid = document.getElementById("design-works-grid");
+
+  DESIGN_WORKS.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "design-work-card";
+    card.innerHTML = `
+      <img src="${item.image}" alt="${item.alt}" loading="lazy">
+      <div class="design-work-overlay">
+        <span class="design-work-title">${item.title}</span>
+        <span class="design-work-type">${item.type}</span>
+      </div>`;
+    designGrid.appendChild(card);
+  });
+
   /* ---------- Custom cursor ---------- */
   const cursor = document.getElementById("cursor");
   const follower = document.getElementById("cursor-follower");
