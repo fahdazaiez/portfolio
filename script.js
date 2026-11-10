@@ -220,6 +220,13 @@
       document.getElementById("modal-client").textContent = data.client;
       document.getElementById("modal-year").textContent = data.year;
       document.getElementById("modal-services").textContent = data.services;
+      const modalLink = document.getElementById("modal-link");
+      if (data.link) {
+        modalLink.href = data.link;
+        modalLink.style.display = "";
+      } else {
+        modalLink.style.display = "none";
+      }
       modal.classList.add("active");
       document.body.style.overflow = "hidden";
     });

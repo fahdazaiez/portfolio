@@ -21,6 +21,18 @@ const PROJECTS = [
     desc: "A modern e-commerce platform designed for a minimalist tote bag brand, combining soft luxury aesthetics with a seamless shopping experience. The website features a clean interface, responsive design, and a fully functional cart and checkout system, creating an elegant and user-friendly digital storefront.",
     gradient: "linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%)",
     image: "images/id2.png"
+  },
+  {
+    id: "3",
+    title: "Catrina Latte",
+    category: "Live Digital Menu",
+    year: "2026",
+    client: "Catrina Latte Café",
+    services: "UI/UX Design, Web Development, Digital Menu",
+    desc: "A fully live and interactive digital menu for Catrina Latte, a café-restaurant inspired by Mexican Day of the Dead culture. The experience immerses visitors in a festive and gourmet universe through rich visuals, smooth navigation, and an elegantly themed interface — serving the full menu digitally with style.",
+    gradient: "linear-gradient(135deg, #3a1a0a 0%, #1a0a05 100%)",
+    image: "images/id3.jpg",
+    link: "https://catrinalattemenu.vercel.app"
   }
 ];
 

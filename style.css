@@ -1505,6 +1505,15 @@ em {
   font-size: 0.9rem;
 }
 
+.modal-visit {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  font-size: 0.85rem;
+  padding: 12px 24px;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
 
